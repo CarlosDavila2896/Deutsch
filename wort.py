@@ -1,9 +1,6 @@
 ARTIKELS = ['der', 'die', 'das']
 
 class Wort:
-    artikel = ''
-    wort = ''
-
     def __init__(self, artikel, wort):
         self.artikel = artikel
         self.wort = wort

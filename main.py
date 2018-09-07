@@ -41,8 +41,8 @@ def cargarPalabras():
     wortList = []
     with open('wortebuch.txt', "r", encoding='utf-8') as f:
         for line in f:
-            artikel = line.split()
-            wort = line.split()
+            artikel = line.split()[0]
+            wort = line.split()[1]
             w = Wort(artikel,wort)
             wortList += [w]
 
@@ -77,14 +77,15 @@ def agregarPalabras():
 def juego():
     global wortList
     while True:        
-        w = wortList[random.randrange(0,len(wortList))]
-        resp = input("Cual es el articulo de " + w.wort.getWort() + ": ")
+        aux = random.randrange(0,len(wortList))
+        w = wortList[aux]
+        resp = input("Cual es el articulo de " + w.getWort() + ": ")
         if(resp == "0"):
             return
         if(resp == w.getArtikel()):
             print("Richtig!!")
         else:
-            print("Nein! El artículo correcto es: " + w.wort.getArtikel())
+            print("Nein! El artículo correcto es: " + w.getArtikel())
         
 
 if __name__ == "__main__":
