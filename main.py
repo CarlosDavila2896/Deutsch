@@ -41,10 +41,11 @@ def cargarPalabras():
     wortList = []
     with open('wortebuch.txt', "r", encoding='utf-8') as f:
         for line in f:
-            artikel = line.split()[0]
-            wort = line.split()[1]
-            w = Wort(artikel,wort)
-            wortList += [w]
+            if len(line) > 1:
+                artikel = line.split()[0]
+                wort = line.split()[1]
+                w = Wort(artikel,wort)
+                wortList += [w]
 
     if m == AGREGAR_PALABRAS:
         f = open("wortebuch.txt", "a", encoding='utf-8')
