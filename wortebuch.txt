@@ -1,95 +1,292 @@
-das Buch
-die Mädchen
-der Name
-der Vorname
-der Nachname
-der Freund
-der Herr
-der Kollege
-der Mensch
-der Partner
-der Lieblingsfilm
-der Beruf
-der Architekt
-der Artz
-der Koch
-der Geburtsort
-der Wohnort
-der Kalender
-der Tag
-der Termin
-der Frühling
-der Sommer
-der Herbst
-der Winter
-der Bus
-der Passagier
-der Zug
-der Bahnhof
-der Flughafen
-der Fluss
-der Hafen
-der Markt
-der Ort
-der Park
-der See
-der Terminal
-der Turm
-der Weg
-der Meter
-der Plan
-der Film
-der Besucher
-der Test
-das Land
-das Foto
-das Hobby
-das Café
-das Fußballstadion
-das Kino
-das Museum
-das Restaurant
-das Schwimmbad
-das Theater
-das Formular
-das Geburtsdatum
-das Wolchenende
-das Fahrrad
-das Flugzeug
-das Schiff
-das Ticket
-das Geschäft
-das Hotel
-das Meter
-das Rathaus
-das Event
-das Festival
-das Konzert
-das Orchester
-die Telefonnummer
-die Handynummer
-die Hausnummer
-die E-Mail-Adresse
-die Webseite
-die Straße
-die Postleitzahl
-die Stadt
-die Schweiz
-die Sprache
-die Frau
-die Freundin
-die Kollegin
-die Leute
-die Partnerin
-die Person
-die Freizeit
-die Musik
-die Lieblingsmusik
-die Woche
-die Jahreszeit
-die S-Bahn
-die Straßenbahn
-die Fahrkarte
-die U-Bahn
-die Kirche
-die Stadt
+das Buch libro
+die Mädchen niña
+der Name nombre
+der Vorname primernombre
+der Nachname apellido
+der Freund amigo
+der Herr señor
+der Kollege colega
+der Mensch humano
+der Partner pareja
+der Lieblingsfilm peliculafavorita
+der Beruf trabajo
+der Architekt arquitecto
+der Artz doctor
+der Koch chef
+der Geburtsort lugardenacimiento
+der Wohnort domicilio
+der Kalender calendario
+der Tag dia
+der Termin cita
+der Frühling primavera
+der Sommer verano
+der Herbst otoño
+der Winter invierno
+der Bus bus
+der Passagier pasajero
+der Zug tren
+der Bahnhof estaciondetren
+der Flughafen aereopuerto
+der Fluss rio
+der Hafen puerto
+der Markt mercado
+der Ort lugar
+der Park parque
+der See lago
+der Terminal terminal
+der Turm torre
+der Weg camino
+der Plan plan
+der Film pelicula
+der Besucher visitante
+der Test prueba
+das Land país
+das Foto foto
+das Hobby pasatiempo
+das Café cafeteria
+das Fußballstadion estadiodefutbol
+das Kino cine
+das Museum museo
+das Restaurant restaurante
+das Schwimmbad piscina
+das Theater teatro
+das Formular formulario
+das Geburtsdatum fechadenacimiento
+das Wolchenende findesemana
+das Fahrrad bicicleta
+das Flugzeug avión
+das Schiff barco
+das Ticket boleto
+das Geschäft negociotienda
+das Hotel hotel
+das Meter metro
+das Rathaus municipio
+das Event evento
+das Festival festival
+das Konzert concierto
+das Orchester orquesta
+die Telefonnummer numerodetelefonofijo
+die Handynummer numerodecelular
+die Hausnummer numerodecasa
+die E-Mail-Adresse email
+die Webseite sitioweb
+die Straße calle
+die Postleitzahl codigopostal
+die Stadt ciudad
+die Schweiz Suiza
+die Sprache idioma
+die Frau mujer
+die Freundin amiga
+die Kollegin colega
+die Leute gente
+die Partnerin noviacompañera
+die Person persona
+die Freizeit tiempolibre
+die Musik musica
+die Lieblingsmusik musicafavorita
+die Woche semana
+die Jahreszeit temporada
+die S-Bahn trenrapido
+die Straßenbahn tranvia
+die Fahrkarte pasaje
+die U-Bahn metro
+die Kirche iglesia
+die Apfel manzana
+die Banane banana
+die Birne pera
+die Kiwi kiwi
+die Orange naranja
+die Erdbeere frutilla
+die Gurke pepino
+die Kartoffel patata
+der Salat lechugaensalada
+die Tomate tomate
+die Zweibel cebolla
+das Brot pandemolde
+das Brötchen pancito
+der Keks galleta
+der Kuchen pastel
+das Ei huevo
+der Fisch pescado
+das Fleisch carne
+das Hähnchen pollo
+die Salami salami
+der Schinken jamon
+die Wurst embutido
+die Butter mantequilla
+das Joghurt yogurt
+der Käse queso
+die Sahne nata
+der Zucker azucar
+das Salz sal
+das Öl aceite
+die Nudel fideopasta
+der Reis arroz
+die Bäckerei panaderia
+der Markt mercado
+die Metzgerei caniceria
+der Supermarkt supermercado
+der Becher vasoplastico
+die Flasche botella
+das Glas vasocopa
+die Packung empaque
+die Tüte bolsa
+das Kilogramm kilogramo
+das Gramm gramo
+der Liter litro
+die Tasse taza
+der Einkaufswagen carritodecompras
+der Einkaufzettel listadecompras
+der Kassenzettel factura
+das Bier cerveza
+die Cola gaseosa
+der Kaffee café
+die Milch leche
+der Saft jugo
+der Tee té
+das Wasser agua
+der Wein vino
+das Essen comida
+das Frühstück desayuno
+das Mittagessen almuerzo
+das Abendessen cena
+die Suppe sopa
+die Pizza
+die Pommesfrites papasfritas
+das Müsli müsli
+der Computer computadora
+die Schule colegio
+der Sport deporte
+das Training entrenamiento
+die Tante tía
+die Kusine prima
+der Onkel tío
+der Vetter primo
+die Schwiegereltern suegros
+der Schwäger cuñado
+die Schwägerin cuñada
+der Schwiegersohn yerno
+die Schwiegertochter nuera
+das Baby bebé
+die Ehefrau esposa
+der Ehemann esposo
+die Eltern padre
+die Familie familia
+die Geschwister hermanos
+die Großmutter abuela
+der Großvater abuelo
+die Großeltern abuelos
+das Kind niño
+die Mutter madre
+die Oma abuelita
+der Opa abuelito
+der Sohn hijo
+die Tochter hija
+der Vater padre
+der Verwandte pariente
+die Besprechung discusión
+das Bild imagen
+die Homepage paginaprincipal
+der Hund perro
+der Junge chico
+die Motorrad motocicleta
+die Party fiesta
+der Urlaub vacaciones
+der Chat charla
+der Preis precio
+der Treffpunkt lugardeencuentro
+der Ausflug excursión
+das Datum fecha
+das Fest festividad
+der Geburtstag cumpleaños
+das Geschenk regalo
+das Picknick picnic
+die Überraschung sorpresa
+die Speisekarte menú
+das Messer cuchillo
+die Gabel tenedor
+der Löffel cuchara
+der Kellner mesero
+die Kellnerin camarera
+die Rechnung facturaderestaurante
+die Serviette servilleta
+der Teller plato
+das Trinkgeld propina
+die Apfelsaftschorle jugodemanzanaconaguamineral
+das Eis hielo
+die Limonade limonada
+das Schnitzel carneapanada
+der Biergarten carpacervecera
+das Kaffeehaus cafetería
+die Kneipe puff
+das Lokal local
+die Strandbar covacha
+die Idee idea
+der Regen lluvia
+das Amt oficinadepartamento
+die Anmeldung avisodeclaracion
+das Sportstudio gimnasio
+die Trainerin entrenador
+die Abteilung secciondepartamento
+der Empfang recepción
+der Leiter director
+die Leiterin directora
+der Mitarbeiter trabajador
+der Mitarbeiterin trabajadora
+die Personalabteilung recursoshumanos
+die Präsentation presentación
+der Raum habitación
+die Werkstatt taller
+die Taste tecla
+die Kanne tetera
+der Erfolg éxito
+der Lernpartner compañerodeaprendizaje
+das Material material
+die Muttersprache lenguamaterna
+der Tandempartner compañerodetandem
+das Treffen encuentro
+die Vermittlung mediación
+die Anrede tratamiento
+der Unterschrift firma
+das socialeNetzwerk redsocial
+der Kontakt contacto
+die Toilette baño
+der Wunsch deseoanhelo
+die Möbel muebles
+das Bett cama
+das Regal estante
+der Schrank armario
+der Schreibtisch escritorio
+der Sessel sillón
+das Sofa sofá
+der Stuhl silla
+der Teppich alfombra
+der Tisch mesa
+die Lampe lampara
+das Gerät utensilioinstrumento
+der Drucker impresora
+der Fernseher televisor
+der Herd estufa
+der Kühlschrank nevera
+die Spülmaschine lavavajillas
+die Waschmaschine lavadora
+das Arbeitszimmer cuartodeestudio
+das Bad baño
+das Balkon balcón
+der Flur pasillo
+das Kinderzimmer cuartodeniño
+die Küche cocina
+das Schlafzummer dormitorio
+das Wohnzimmer cuartodeestar
+die Treppe escaleras
+die Anzeige anuncio
+die Einweihungsparty fiestadeinauguración
+die Größe tamaño
+die Miete alquiler
+der Nachbar vecino
+das Hochhaus rascacielo
+das Reihenhaus casaadosada
+die Wohnung departamento
+der Nachteil desventaja
+der Vorteil ventaja
+die Farbe color

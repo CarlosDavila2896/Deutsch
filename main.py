@@ -19,8 +19,6 @@ def main():
         if(m > 0 and m < 4):
             break
     
-    
-     
     if(m == 3):
         print("Tschüs!!!")
         return
@@ -44,7 +42,8 @@ def cargarPalabras():
             if len(line) > 1:
                 artikel = line.split()[0]
                 wort = line.split()[1]
-                w = Wort(artikel,wort)
+                spanisch = line.split()[2]
+                w = Wort(artikel,wort,spanisch)
                 wortList += [w]
 
     if m == AGREGAR_PALABRAS:
@@ -69,6 +68,11 @@ def agregarPalabras():
                 break
             else:
                 print("Artículo no valido")
+        spanisch = input("Ingrese su traduccion al español: ")
+        if(spanisch == "0"):
+            f.close()
+            return
+        w.setSpanisch(spanisch)
         if (not w in wortList):
             f.write(str(w)+"\n")
         else:
@@ -77,16 +81,15 @@ def agregarPalabras():
 
 def juego():
     global wortList
-    while True:        
-        aux = random.randrange(0,len(wortList))
-        w = wortList[aux]
+    while True:    
+        w = wortList[random.randrange(0,len(wortList))]
         resp = input("Cual es el articulo de " + w.getWort() + ": ")
         if(resp == "0"):
             return
         if(resp == w.getArtikel()):
-            print("Richtig!!")
+            print("Richtig!! Spanisch: " + w.getSpanish())
         else:
-            print("Nein! El artículo correcto es: " + w.getArtikel())
+            print("Nein! El artículo correcto es: " + w.getArtikel() + ". Spanisch: " + w.getSpanish())
         
 
 if __name__ == "__main__":
