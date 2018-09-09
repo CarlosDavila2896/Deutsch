@@ -87,9 +87,10 @@ def juego():
         if(resp == "0"):
             return
         if(resp == w.getArtikel()):
-            print("Richtig!! Spanisch: " + w.getSpanish())
+            print("Richtig!! Spanisch: " + w.getSpanisch())
         else:
-            print("Nein! El artículo correcto es: " + w.getArtikel() + ". Spanisch: " + w.getSpanish())
+            print("Nein! El artículo correcto es: " + w.getArtikel() + ". Spanisch: " + w.getSpanisch())
+        print("")
         
 
 if __name__ == "__main__":

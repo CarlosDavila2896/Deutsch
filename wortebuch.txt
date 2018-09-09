@@ -151,7 +151,7 @@ das Frühstück desayuno
 das Mittagessen almuerzo
 das Abendessen cena
 die Suppe sopa
-die Pizza
+die Pizza pizza
 die Pommesfrites papasfritas
 das Müsli müsli
 der Computer computadora
