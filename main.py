@@ -1,5 +1,5 @@
 from wort import Wort
-import random
+import random, case
 
 JUGAR = 1
 AGREGAR_PALABRAS = 2
@@ -82,16 +82,24 @@ def agregarPalabras():
 def juego():
     global wortList
     while True:    
-        w = wortList[random.randrange(0,len(wortList))]
-        resp = input("Cual es el articulo de " + w.getWort() + ": ")
+        d = bool(random.getrandbits(1))
+        c = random.randint(0, 2)
+        i = random.randrange(0,len(wortList))
+        w = wortList[i]
+        resp = input("Cual es el articulo de " + w.getWort() + " en " + case.traducir(c) + " (" + traducirDefinido(d) + ") : ")
         if(resp == "0"):
             return
-        if(resp == w.getArtikel()):
+        if(w.checkArtikelGame(resp, d, c)):
             print("Richtig!! Spanisch: " + w.getSpanisch())
         else:
-            print("Nein! El artículo correcto es: " + w.getArtikel() + ". Spanisch: " + w.getSpanisch())
+            print("Nein! El artículo correcto es: " + w.getArtikel(c,d) + ". Spanisch: " + w.getSpanisch())
         print("")
-        
+
+def traducirDefinido(defined):
+    if(defined):
+        return 'definido'
+    else:
+        return 'indefinido'        
 
 if __name__ == "__main__":
     main()
