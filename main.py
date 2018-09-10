@@ -1,3 +1,5 @@
+# coding=utf-8
+
 from wort import Wort
 import random, case
 

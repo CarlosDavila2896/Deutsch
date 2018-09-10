@@ -1,3 +1,5 @@
+# coding=utf-8
+
 NOMINATIV = 0
 AKKUSATIV = 1
 DATIV = 2

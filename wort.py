@@ -1,3 +1,5 @@
+# coding=utf-8
+
 import case
 
 ARTIKELS = ['der', 'die', 'das']
